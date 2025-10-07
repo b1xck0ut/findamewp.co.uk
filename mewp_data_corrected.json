@@ -276,7 +276,7 @@
     "one_side_narrow_jacked_m": "",
     "narrow_jacked_width_m": "",
     "weight_kg": 32000,
-    "pdf_link": "specs/AspenAerialsA62 .pdf",
+    "pdf_link": "/data/Specs/AspenAerialsA62 .pdf",
     "negative_reach": -20.6
   },
   {
@@ -676,7 +676,7 @@
     "one_side_narrow_jacked_m": 5.6,
     "narrow_jacked_width_m": "",
     "weight_kg": 3500,
-    "pdf_link": "specs/TruckSPECS/ruthmann-tbr220.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/ruthmann-tbr220.pdf",
     "negative_reach": -1
   },
   {
@@ -796,7 +796,7 @@
     "one_side_narrow_jacked_m": "",
     "narrow_jacked_width_m": "",
     "weight_kg": 3500,
-    "pdf_link": "specs/TruckSPECS/ruthmann-steiger-tbr230.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/ruthmann-steiger-tbr230.pdf",
     "negative_reach": 0
   },
   {
@@ -896,7 +896,7 @@
     "one_side_narrow_jacked_m": 3.4,
     "narrow_jacked_width_m": "",
     "weight_kg": 3500,
-    "pdf_link": "specs/TruckSPECS/multitel-mz250.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/multitel-mz250.pdf",
     "negative_reach": -2
   },
   {
@@ -976,7 +976,7 @@
     "one_side_narrow_jacked_m": 3.69,
     "narrow_jacked_width_m": "",
     "weight_kg": 3500,
-    "pdf_link": "specs/TruckSPECS/ruthmann-steiger-tbr260.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/ruthmann-steiger-tbr260.pdf",
     "negative_reach": 0
   },
   {
@@ -1036,7 +1036,7 @@
     "one_side_narrow_jacked_m": "",
     "narrow_jacked_width_m": "",
     "weight_kg": 7490,
-    "pdf_link": "specs/TruckSPECS/ruthmann-steiger-tu285.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/ruthmann-steiger-tu285.pdf",
     "negative_reach": 0
   },
   {
@@ -1196,7 +1196,7 @@
     "one_side_narrow_jacked_m": 6.2,
     "narrow_jacked_width_m": 2.5,
     "weight_kg": 12000,
-    "pdf_link": "specs/TruckSPECS/palfinger-p320.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/palfinger-p320.pdf",
     "negative_reach": -7
   },
   {
@@ -1276,7 +1276,7 @@
     "one_side_narrow_jacked_m": 5.3,
     "narrow_jacked_width_m": 2.5,
     "weight_kg": 7490,
-    "pdf_link": "specs/TruckSPECS/ruthmann-steiger-t330.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/ruthmann-steiger-t330.pdf",
     "negative_reach": 0
   },
   {
@@ -1296,7 +1296,7 @@
     "one_side_narrow_jacked_m": "",
     "narrow_jacked_width_m": "",
     "weight_kg": 7490,
-    "pdf_link": "specs/TruckSPECS/Ruthmann Steiger T330XS.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/Ruthmann Steiger T330XS.pdf",
     "negative_reach": 0
   },
   {
@@ -1396,7 +1396,7 @@
     "one_side_narrow_jacked_m": "",
     "narrow_jacked_width_m": "",
     "weight_kg": 15200,
-    "pdf_link": "specs/TruckSPECS/palfinger-p370ks.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/palfinger-p370ks.pdf",
     "negative_reach": 0
   },
   {
@@ -1416,7 +1416,7 @@
     "one_side_narrow_jacked_m": 6.2,
     "narrow_jacked_width_m": 2.5,
     "weight_kg": 18000,
-    "pdf_link": "specs/TruckSPECS/palfinger-wt370.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/palfinger-wt370.pdf",
     "negative_reach": -5
   },
   {
@@ -1436,7 +1436,7 @@
     "one_side_narrow_jacked_m": 6.5,
     "narrow_jacked_width_m": 2.5,
     "weight_kg": 18000,
-    "pdf_link": "specs/TruckSPECS/SKYLIFT S38XDT.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/SKYLIFT S38XDT.pdf",
     "negative_reach": -5
   },
   {
@@ -1456,7 +1456,7 @@
     "one_side_narrow_jacked_m": "",
     "narrow_jacked_width_m": "",
     "weight_kg": 18000,
-    "pdf_link": "specs/TruckSPECS/ruthmann-steiger-t380.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/ruthmann-steiger-t380.pdf",
     "negative_reach": -8
   },
   {
@@ -1536,7 +1536,7 @@
     "one_side_narrow_jacked_m": 6.2,
     "narrow_jacked_width_m": 2.5,
     "weight_kg": 18000,
-    "pdf_link": "specs/TruckSPECS/palfinger-wt450.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/palfinger-wt450.pdf",
     "negative_reach": -5
   },
   {
@@ -1556,7 +1556,7 @@
     "one_side_narrow_jacked_m": 2.55,
     "narrow_jacked_width_m": "",
     "weight_kg": 18000,
-    "pdf_link": "specs/TruckSPECS/ruthmann-steiger-t460.pdf",
+    "pdf_link": "/data/Specs/TruckSPECS/ruthmann-steiger-t460.pdf",
     "negative_reach": -10
   },
   {

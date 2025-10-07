@@ -165,10 +165,11 @@ const MewpFinder: React.FC = () => {
 
     return (
         <div className="flex-grow flex flex-col relative overflow-hidden h-full">
+            {/* Mobile backdrop - only covers the right side when sidebar is open */}
             {isFilterSidebarOpen && (
-                <div 
+                <div
                     onClick={() => setFilterSidebarOpen(false)}
-                    className="fixed inset-0 bg-black/50 z-30 lg:hidden"
+                    className="fixed top-0 right-0 bottom-0 left-80 bg-black/50 z-30 lg:hidden"
                     aria-hidden="true"
                 />
             )}
