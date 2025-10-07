@@ -31,15 +31,6 @@ const FilterSidebar: React.FC<FilterSidebarProps> = (props) => {
   return (
     <aside className={`w-80 flex-shrink-0 bg-slate-800 border-r border-slate-700 flex flex-col h-screen fixed top-0 left-0 z-40 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
       <div className="p-4 border-b border-slate-700 flex flex-col gap-4 flex-shrink-0">
-        <div className="relative flex justify-center items-center">
-            <h1 className="text-2xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-cyan-500">
-                MEWP Finder
-            </h1>
-            <button onClick={onClose} className="absolute right-0 text-slate-400 hover:text-white p-1 rounded-full hover:bg-slate-700 transition-colors" aria-label="Close filters">
-                <CloseIcon className="w-6 h-6" />
-            </button>
-        </div>
-        
         <div className="relative">
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                 <SearchIcon className="h-5 w-5 text-slate-400" />
@@ -55,7 +46,12 @@ const FilterSidebar: React.FC<FilterSidebarProps> = (props) => {
       </div>
 
       <div className="flex-grow p-6 flex flex-col overflow-hidden">
-          <h2 className="text-xl font-bold text-slate-100 mb-4 flex-shrink-0">Filters</h2>
+          <div className="flex justify-between items-center mb-4 flex-shrink-0">
+            <h2 className="text-xl font-bold text-slate-100">Filters</h2>
+            <button onClick={onClose} className="text-slate-400 hover:text-white p-1 rounded-full hover:bg-slate-700 transition-colors lg:hidden" aria-label="Close filters">
+                <CloseIcon className="w-6 h-6" />
+            </button>
+          </div>
           
           <div className="flex-grow overflow-y-auto -mr-6 pr-6">
               <FilterControls {...filterProps} filters={filters} setFilters={props.setFilters} />

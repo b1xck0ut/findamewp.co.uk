@@ -2,16 +2,7 @@ import React from 'react';
 import { ShieldCheckIcon, SlidersIcon } from './icons';
 import { CompareIcon } from './icons';
 
-interface HomePageProps {
-  onNavigate: (path: string) => void;
-}
-
-const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    e.preventDefault();
-    onNavigate('/finder');
-  };
-
+const HomePage: React.FC = () => {
   return (
     <div className="flex-grow flex items-center justify-center text-center p-8 bg-slate-900 text-slate-300 h-full">
       <div className="max-w-4xl">
@@ -53,10 +44,9 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         <div className="mt-12">
           <a
             href="#/finder"
-            onClick={handleNavClick}
             className="inline-block px-8 py-3 bg-teal-500 text-white rounded-lg font-semibold shadow-lg shadow-teal-500/20 hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-teal-500 transform hover:scale-105 transition-all duration-300"
           >
-            Start Searching Now
+            Launch MEWP Hub
           </a>
         </div>
       </div>
