@@ -132,7 +132,29 @@ const MewpDetailsView: React.FC<MewpDetailsViewProps> = ({ mewp, onClose }) => {
         {/* Right Column: PDF Embed (Desktop only) */}
         <div className="hidden lg:flex flex-col w-5/12 border-l border-slate-800">
           {mewp.pdf_link ? (
-              <iframe src={mewp.pdf_link} title={`Spec sheet for ${mewp.model}`} className="w-full h-full border-0" />
+              <div className="w-full h-full flex flex-col">
+                <div className="p-4 bg-slate-800 border-b border-slate-700 flex-shrink-0">
+                  <h3 className="text-lg font-semibold text-slate-200 flex items-center">
+                    <FileTextIcon className="w-5 h-5 mr-2 text-teal-400" />
+                    Spec Sheet
+                  </h3>
+                </div>
+                <div className="flex-grow bg-slate-800/50 flex items-center justify-center">
+                  <div className="text-center p-8">
+                    <FileTextIcon className="w-16 h-16 text-slate-600 mx-auto mb-4" />
+                    <p className="text-slate-400 mb-4">PDF Preview</p>
+                    <a
+                      href={mewp.pdf_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-4 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-colors"
+                    >
+                      <FileTextIcon className="w-4 h-4 mr-2" />
+                      Open PDF in New Tab
+                    </a>
+                  </div>
+                </div>
+              </div>
           ) : (
             <div className="flex items-center justify-center h-full bg-slate-800/50">
               <div className="text-center">
@@ -171,8 +193,21 @@ const MewpDetailsView: React.FC<MewpDetailsViewProps> = ({ mewp, onClose }) => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
               </button>
             </header>
-            <div className="flex-grow">
-              <iframe src={mewp.pdf_link!} title={`Spec sheet for ${mewp.model}`} className="w-full h-full border-0" />
+            <div className="flex-grow bg-slate-800/50 flex items-center justify-center">
+              <div className="text-center p-8">
+                <FileTextIcon className="w-16 h-16 text-slate-600 mx-auto mb-4" />
+                <p className="text-slate-400 mb-4">Open PDF Spec Sheet</p>
+                <a
+                  href={mewp.pdf_link!}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-teal-500 text-white rounded-lg hover:bg-teal-600 transition-colors"
+                  onClick={() => setPdfVisible(false)}
+                >
+                  <FileTextIcon className="w-5 h-5 mr-2" />
+                  Open PDF in New Tab
+                </a>
+              </div>
             </div>
           </div>
         </div>
